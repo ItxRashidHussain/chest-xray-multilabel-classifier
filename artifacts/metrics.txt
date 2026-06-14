@@ -1,0 +1,24 @@
+=== TEST RESULTS ===
+Backbone                 : mobilenet_v2
+Best val macro-AUC       : 0.7150
+Test macro-AUC           : 0.6925
+Test macro-F1 (@0.5)   : 0.1487
+Test micro-F1 (@0.5)   : 0.1964
+Test per-label accuracy  : 0.7644
+Test subset accuracy     : 0.1058
+
+Class                   AUC   Prec    Rec     F1    N+
+Emphysema             0.820  0.094  0.655  0.165    29
+Hernia                0.781  0.000  0.000  0.000     2
+Edema                 0.780  0.110  0.360  0.168    25
+Effusion              0.769  0.202  0.781  0.321    96
+Pneumothorax          0.758  0.141  0.545  0.224    44
+Consolidation         0.741  0.109  0.583  0.183    36
+Pleural_Thickening    0.707  0.039  0.455  0.072    22
+Atelectasis           0.705  0.144  0.603  0.232    68
+Pneumonia             0.682  0.033  0.091  0.049    11
+Cardiomegaly          0.657  0.042  0.450  0.077    20
+Infiltration          0.630  0.227  0.667  0.339   147
+Mass                  0.621  0.069  0.324  0.114    37
+Nodule                0.583  0.059  0.447  0.105    38
+Fibrosis              0.462  0.018  0.231  0.034    13
