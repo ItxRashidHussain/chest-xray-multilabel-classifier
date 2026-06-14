@@ -1,0 +1,15 @@
+Download the NIH Chest X-ray *sample* dataset and unzip it into THIS folder.
+
+Kaggle: https://www.kaggle.com/datasets/nih-chest-xrays/sample
+(~5,606 images, ~2 GB — small enough to train on a CPU.)
+
+After unzipping, this folder should contain (nesting doesn't matter — the
+scripts search recursively):
+  - a CSV named  sample_labels.csv   (the labels)
+  - a folder of .png images          (e.g. images/00000001_000.png)
+
+Then run, from the project root:
+  python prepare_data.py
+  python extract_features.py
+  python train.py
+  streamlit run app.py

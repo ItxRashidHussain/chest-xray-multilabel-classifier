@@ -1,0 +1,17 @@
+# Datasets and generated artifacts (too big / reproducible)
+data/*
+!data/PUT_DATASET_HERE.txt
+artifacts/
+
+# Friend's separate brain-tumor project (kept locally for reference only)
+best2.pt
+model_(2).ipynb
+
+# Claude Code local tooling config (not part of the project)
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

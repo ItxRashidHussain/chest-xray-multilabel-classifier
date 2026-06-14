@@ -1,0 +1,12 @@
+# Chest X-ray multi-label classifier - dependencies (CPU-only friendly)
+# Install with:  pip install -r requirements.txt
+streamlit
+torch
+torchvision
+scikit-learn
+pandas
+numpy
+pillow
+matplotlib
+tqdm
+kagglehub   # optional: for download_data.py (Kaggle API download)
